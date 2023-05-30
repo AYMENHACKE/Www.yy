@@ -1,0 +1,135 @@
+
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #FFDADA;
+  background-image: linear-gradient(to bottom, #FFDADA, #FFFFFF);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.rainbow-text {
+  animation: rainbow-animation 0.25s infinite;
+}
+
+@keyframes rainbow-animation {
+  0% {
+    color: red;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+#login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#login-container button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#login-container button:hover {
+  background-color: #45a049;
+}
+
+#language-container {
+  width: 200px;
+  margin: 20px auto;
+}
+
+#language-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#user-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.glowing-text {
+  color: #ff6c00;
+  text-shadow: 0 0 5px #ff6c00;
+}
+
+#content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#content ul li {
+  margin-bottom: 10px;
+}
+
+#content ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#content ul li a:hover {
+  color: #ff6c00;
+}
+
+#contact-us-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffccff;
+  border: 1px solid #ff99ff;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact-us-container
+
